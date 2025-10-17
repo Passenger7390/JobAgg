@@ -2,6 +2,8 @@
 
 Small Go backend that proxies JSearch (RapidAPI) and exposes a single HTTP endpoint to search jobs.
 
+Frontend: https://github.com/Passenger7390/JobAgg_Frontend
+
 - Main entry: [`main.main`](main.go) — [main.go](main.go)
 - JSearch client: [`jsearch.NewClient`](internal/jsearch/client.go), [`jsearch.Client.SearchJob`](internal/jsearch/client.go) — [internal/jsearch/client.go](internal/jsearch/client.go)
 - Request/response models: [`models.SearchJobParams`](models/jsearch.go), [`models.JSearchResponse`](models/jsearch.go) — [models/jsearch.go](models/jsearch.go)
